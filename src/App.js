@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+// import { Router } from 'react-router-dom'
+import Home from './pages'
 
 function App() {
   return (
-    <div className="App">
-      Hello.
-    </div>
+    // <Router>
+      <Home />
+    // {/* </Router> */}
   );
 }
 
